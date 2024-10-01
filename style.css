@@ -1,0 +1,124 @@
+.título {
+    background-color: black;
+    color: aliceblue;
+    width:400px;
+    height: 70px;
+    margin-left: 450px;
+    padding: 10px;
+    text-align: center;
+    border-radius:15pc;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    background-color: black;
+    color: aliceblue;
+    border-style:solid;
+    width:490px;
+    height: 70px;
+    margin-left: 410px;
+    font-size: 20px;
+    text-align: center;
+    border-radius:15pc;
+}
+body  {
+    background-image: url("https://img.freepik.com/vetores-gratis/plano-de-fundo-da-area-de-trabalho-moderno-vetor-de-desenho-geometrico-azul_53876-135923.jpg?w=740&t=st=1727303603~exp=1727304203~hmac=610b5c378e723dfe6803fc4c10d4dda35c3dac39b99b5aea10a9773428678d4c");
+    background-size: contain;
+
+  
+}
+
+.perfil img{
+    border-radius:25pc;
+    margin-left: 200px;
+    border: 4px solid beige;
+    width: 160px;
+    height: 150px;
+    margin-top: -155px;
+}
+
+li {
+    width: 250px;  
+    height: 150px;
+    color: aliceblue;
+   margin-left: 450px;
+   font-size: 25px;
+}
+
+.info table {
+    width: 100%; /* Faz a tabela ocupar 100% da largura disponível */
+    border-collapse: collapse; /* Remove os espaços entre as bordas das células */
+    margin: 20px 0; /* Adiciona espaço em volta da tabela */
+    font-family: Arial, sans-serif; /* Define uma fonte mais legível */
+}
+
+.info th, 
+.info td {
+    border: 1px solid #ddd; /* Adiciona bordas suaves */
+    padding: 8px; /* Adiciona espaço dentro das células */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.info th {
+    background-color: #1c3ba3; /* Cor de fundo para os cabeçalhos */
+    font-weight: bold; /* Deixa o texto dos cabeçalhos em negrito */
+    text-transform: uppercase; /* Transforma o texto dos cabeçalhos em maiúsculas */
+}
+
+.info tr:nth-child(even) {
+    background-color: #f9f9f905; /* Adiciona uma cor de fundo diferente para as linhas pares */
+}
+
+.info tr:hover {
+    background-color: #0f1d2b; /* Adiciona um efeito de mudar de cor ao passar o mause */
+}
+
+.info td {
+    color: #f8f3f3; /* Cor do texto nas letras da tabela */
+    
+}
+
+.info td:first-child {
+    font-weight: bold; /* Deixa o primeiro valor (como "idade", "cidade") em negrito */
+}
+
+
+.contato{
+    background-color: #0f1d2b;
+    transform: scale(1.05);
+}
+
+.contato {
+    color: aliceblue;
+    border-style:solid;
+    max-width: 490px; /* Largura máxima */
+    height: 70px; /* Altura */
+    font-size: 20px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+  
+    margin-left: 410px;
+    
+    border-radius:15pc;
+    padding: 10px;
+    cursor: pointer; 
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    background-color: #1c3ba3;
+    border-style:solid;
+    height: 70px; /* Altura */
+    font-size: 45px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    margin-left: 550px;
+    border-radius:15pc;
+    padding: 10px;
+ 
+}
+.button:hover {
+    background-color:green; 
+    transform: scale(1.05);
+}
+
+
